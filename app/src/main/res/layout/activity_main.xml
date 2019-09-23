@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_light"
+        android:text="酷安lanlana\n微信公众号【想到即道】\n看看号【学姐带你写代码】" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="起因：看到努比亚的有的锁屏壁纸和配的一句话很棒但不能直接保存，于是就有了这个模块\n使用说明：1.开启锁屏画报后，会帮你把浏览过的壁纸保存位置和对应的一言打印在xposed日志里面
+2.壁纸要打开的话直接加后缀名.jpg就OK"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="点我测试是否激活" />
+
+
+</LinearLayout>
